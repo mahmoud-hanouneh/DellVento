@@ -1,0 +1,167 @@
+:root {
+    --athens-gray: #F8F9FA;
+    --red: red;
+    --ripe-lemon: #f0e118;
+    --mine-shaft: #333;
+    --gray: #808080;
+    --turbo: #FFF000;
+    --white: #ffffff;
+    --alto: #ddd;
+    --hot-cinnamon: #cf711f;
+    --supernova: #FFCD00;
+    ---orange: #e67e22;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--athens-gray);
+
+}
+/* Reusable */
+
+h1, h2 {
+    font-weight: 900;
+}
+
+/* ------ Navbar ------ */
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.navbar-text {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.login-link {
+    background-color: var(--ripe-lemon);
+    border-radius: 8%;
+}
+.red {color: var(--red)}
+
+/* ------ Header ------ */
+
+.header h1.big-heading {
+    color: var(--mine-shaft);
+    line-height: 1.3;
+    letter-spacing: 0.5px;
+}
+
+.header p {
+    color: var(--gray);
+    margin-top: 30px;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+}
+.login-button {
+    background-color: var(---orange);
+    width: 250px;
+    font-weight: 700;
+}
+.more-button {
+    background-color: var(--white);
+    width: 250px;
+}
+.fa-arrow-down {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+/* ------ How it Works ------ */
+
+.section-how {
+    padding: 9.6rem 0;
+}
+
+.grid {
+    display: grid;
+    column-gap: 3.4rem;
+    row-gap: 3rem;
+}
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--center-v {
+    align-items: center;
+}
+.step-number {
+    font-size: 7.6rem;
+    font-weight: 600;
+    color: var(--alto);
+    margin-bottom: 0rem;
+}
+.heading-tertiary {
+    font-weight: 700;
+    color: var(--mine-shaft);
+    letter-spacing: -0.5px;
+    margin-bottom: 1.5rem;
+}
+.step-description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}    
+.step-img-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-img {
+    width: 45%;
+}
+.subheading {
+    display: block;
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--hot-cinnamon);
+    margin-bottom: 1.6rem;
+    letter-spacing: 0.75px;
+}  
+.heading-secondary {
+    font-size: 2rem;
+    margin-bottom: 3.2rem;
+}
+
+/* ------ Services ------ */
+
+.services img {
+    margin-bottom: 1rem;
+}
+.services h4 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+.services p {line-height: 1.8;}
+
+/* ------ CTA ------ */
+#cta {
+    background-color: var(---orange);
+    position: relative;
+    margin: 160px auto;
+    height: 300px;
+}
+#cta img {
+    top: -80px;
+    left: 276px;
+    transform: rotate(-20deg);
+}
+
+.cta-text {padding-top: 6%;}
+
+/* Who We Are  */
+.who-we-are {
+    margin-top: 200px;
+}
+.who-we-are a {
+    background-color: var(---orange);
+}
+.who-we-are p {
+    color: #808080;
+}
+

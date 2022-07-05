@@ -1,0 +1,75 @@
+:root {
+    --athens-gray: #F8F9FA;
+    --red: red;
+    --ripe-lemon: #f0e118;
+    --mine-shaft: #333;
+    --gray: #808080;
+    --turbo: #FFF000;
+    --white: #ffffff;
+    --alto: #ddd;
+    --hot-cinnamon: #cf711f;
+    --supernova: #FFCD00;
+}
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: rgb(248, 247, 247);
+
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+}
+.navbar-text {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.login-link {
+    background-color: var(--ripe-lemon);
+    border-radius: 8%;
+}
+.red {color: var(--red)}
+small {
+    color: red;
+}
+.form-box {
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    border-radius: 3%;
+}
+label.required::after {
+    content: "*";
+    color: red;
+    margin-right: 10px;
+}
+
+#server-response {
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+
+.card-img-top {
+    height: 200px;
+}
+.card {
+    
+    border-radius: 7%;
+    background-color: rgb(252, 252, 252);
+
+}
+.product-price {
+    color: rgb(223, 77, 41);
+}
+#added-products {
+    font-size:12px;
+    color: #fff;
+    background: red;
+    border-radius:50%;
+    padding: 0 5px;
+    position:relative;
+    left:-8px;
+    top:-10px;
+    opacity:0.9;
+}
