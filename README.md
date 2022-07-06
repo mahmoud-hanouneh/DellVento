@@ -8,8 +8,8 @@ Description: >-
 | \# | Title |
 | :--- | :--- |
 | 1 | [Overview](#overview) |
-| 2 | [Created with](#created-with) |
-| 3 | [Project Sections and Pages](#project-section-and-pages) |
+| 2 | [Created using](#created-using) |
+| 3 | [Project Sections and Pages](#project-sections-and-pages) |
 | 4 | [Author](#author) |
   
 ### Overview
