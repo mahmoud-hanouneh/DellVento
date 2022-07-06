@@ -17,7 +17,7 @@ Description: >-
 
  DellVento is a multi page onlline ordering system created using Vanilla JS. 
 
-### created using
+### Created using
 
 - Vanilla Javascript
 - HTML
@@ -36,5 +36,5 @@ Description: >-
 
 Mahmoud Hanouneh, I am a telecommunication engineer | web development enthusiast.
 
-- LinkedIn - [Mahmoud Hanouneh](https://www.linkedin.com/in/mahmoud-hanouneh/)---
+- LinkedIn - [Mahmoud Hanouneh](https://www.linkedin.com/in/mahmoud-hanouneh/)
 
