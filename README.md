@@ -15,22 +15,21 @@ Description: >-
 ### Overview
 # DELL Vento - Online ordering web application
 
- DellVento is a multi page onlline ordering system created using Vanilla JS. 
+ DellVento is a multipage online ordering system created using Vanilla JS. 
 
 ### Created using
 
 - Vanilla Javascript
 - HTML
 - CSS (Bootstrap)
-- JQuery
 
 ### Project Sections and Pages
 
 - Sign Up Page
 - Login Page 
 - Landing Page.
-- Products Page for displaying available restaurants (Fetch API used to fetch data from the server)
-- Shopping Card Page - Interacting with Session Storage to dispaly the orders that were added to the card. 
+- Products Page for displaying available restaurants (Fetch API used to manage POST and GET async requests from the server).
+- Shopping Card Page - Interacting with the browser's session storage to dispaly the orders that have been added to the card.
 
 ## Author
 
